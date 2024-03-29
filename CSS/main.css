@@ -1,0 +1,82 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover; /* This property ensures that the background image covers the entire viewport */
+    background-position: center; /* This property centers the background image */
+    /* Optionally, you can add more properties to customize the background image */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.homepage__name {
+    font-weight: bolder;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #8400ff5f;
+    width: 100%;
+}
+
+.homepage__activities {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Add space between items */
+}
+
+.homepage__AOW,
+.homepage__AT {
+    width: 48%; /* Set width to 48% */
+    text-align: center; /* Center the content */
+}
+
+.homepage__AOW {
+    align-self: flex-start;
+    margin-top: 4%;
+    margin-left: 4%;
+    text-align: center;
+    color: rgb(52, 0, 100);
+    background-color: #7a7a7a99;
+    border-radius: 1%;
+}
+
+.AOW-info {
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: justify;
+}
+
+.homepage__AOW h3 {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+
+.homepage__AT {
+    align-self: flex-start;
+    margin-top: 4%;
+    margin-right: 15%;
+    margin-left: 15%;
+    color: rgb(52, 0, 100);
+    background-color: #7a7a7a99;
+    border-radius: 1%;
+}
+
+.homepage__AT p {
+    font-size: 20px;
+}
+
+.equipmentstaff {
+    text-align: left;
+    margin-left: 4%;
+}
+
+.homepage__contact {
+    position: absolute;
+    bottom: 0;
+}

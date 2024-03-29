@@ -1,0 +1,16 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover; /* This property ensures that the background image covers the entire viewport */
+    background-position: center; /* This property centers the background image */
+    /* Optionally, you can add more properties to customize the background image */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
